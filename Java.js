@@ -1,4 +1,3 @@
-//API
 
 function displayTemp(response) {
   let temperatureElement = document.querySelector("#current-temperature");
@@ -7,8 +6,6 @@ function displayTemp(response) {
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = `${temperature}`;
 }
-
-//search
 
 function search(event) {
   event.preventDefault();
